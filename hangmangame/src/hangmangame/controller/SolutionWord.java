@@ -17,7 +17,7 @@ public class SolutionWord {
 	}
 
 	public List<Integer> getIndexesOf(final String guess) {
-		final List<Integer> indexes = new ArrayList<Integer>();
+		final List<Integer> indexes = new ArrayList<>();
 		final String guessLC = guess.toLowerCase();
 		String solutionWordLC = this.solutionWord.toLowerCase();
 
